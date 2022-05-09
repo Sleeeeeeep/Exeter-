@@ -1,0 +1,17 @@
+---
+title: "Code"
+author: "Bochen Ren"
+date: "2021/8/12"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+print("Hi")
+```
+
+```{r code = readLines(knitr::purl("~/Desktop/504 Applications of DSS/Assignment/Data C/PartC_code.Rmd", documentation = 1)), echo = T, eval = F, include=TRUE}
+```
